@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+
+.App {
+  text-align: center;
+  font-family: "poppins";
+  font-size: 20px;
+  color: #f7cd2a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+.Background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./Assets/Background/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40% 40%;
+}
+
+.font-face-gm {
+  font-family: "ThunderDemo";
+ }
